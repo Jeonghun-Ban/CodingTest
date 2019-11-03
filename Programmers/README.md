@@ -5,12 +5,12 @@ Programmers
 ---
 
 #### Hash
-- [Incomplete-Player](Incomplete-Player.md): [문제 링크](https://programmers.co.kr/learn/courses/30/lessons/42576)
-- [Camouflage](Camouflage.java): [문제 링크](https://programmers.co.kr/learn/courses/30/lessons/42578)
+- [완주하지 못한 선수](Incomplete-Player.md): [문제 링크](https://programmers.co.kr/learn/courses/30/lessons/42576)
+- [위장](Camouflage.java): [문제 링크](https://programmers.co.kr/learn/courses/30/lessons/42578)
 
 #### Queue/Stack
-- [Develop Function](Develop-Function.java): [문제 링크](https://programmers.co.kr/learn/courses/30/lessons/42586)
-- [Top](Top.java) : [문제 링크](https://programmers.co.kr/learn/courses/30/lessons/42588)
+- [기능개발](Develop-Function.java): [문제 링크](https://programmers.co.kr/learn/courses/30/lessons/42586)
+- [탑](Top.java) : [문제 링크](https://programmers.co.kr/learn/courses/30/lessons/42588)
 
 2019 KAKAO BLIND RECRUITMENT
 ---
