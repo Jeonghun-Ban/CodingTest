@@ -11,3 +11,7 @@ Programmers
 #### Queue/Stack
 - [Develop Function](Develop-Function.java): [문제 링크](https://programmers.co.kr/learn/courses/30/lessons/42586)
 - [Top](Top.java) : [문제 링크](https://programmers.co.kr/learn/courses/30/lessons/42588)
+
+2019 KAKAO BLIND RECRUITMENT
+---
+- [오픈채팅방](Open-Chat.java) : [문제 링크](https://programmers.co.kr/learn/courses/30/lessons/42888)
