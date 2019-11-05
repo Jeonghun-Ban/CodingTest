@@ -12,6 +12,9 @@ Programmers
 - [기능개발](Develop-Function.java): [문제 링크](https://programmers.co.kr/learn/courses/30/lessons/42586)
 - [탑](Top.java) : [문제 링크](https://programmers.co.kr/learn/courses/30/lessons/42588)
 
+#### Sort
+- [K번째 수](k-th-Number.java): [문제 링크](https://programmers.co.kr/learn/courses/30/lessons/42748)
+
 2019 KAKAO BLIND RECRUITMENT
 ---
 - [오픈채팅방](Open-Chat.java) : [문제 링크](https://programmers.co.kr/learn/courses/30/lessons/42888)
