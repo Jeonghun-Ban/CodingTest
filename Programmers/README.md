@@ -18,6 +18,7 @@ Programmers
 
 #### Full Search
 - [모의고사](Mock-Test.java): [문제 링크](https://programmers.co.kr/learn/courses/30/lessons/42840)
+- [소수찾기](Search-Decimal.java): [문제 링크](https://programmers.co.kr/learn/courses/30/lessons/42839)
 
 2019 KAKAO BLIND RECRUITMENT
 ---
