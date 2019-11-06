@@ -15,6 +15,7 @@ Programmers
 #### Sort
 - [K번째 수](k-th-Number.java): [문제 링크](https://programmers.co.kr/learn/courses/30/lessons/42748)
 - [가장 큰 수](Largest-Number.java): [문제 링크](https://programmers.co.kr/learn/courses/30/lessons/42746)
+- [H-Index](H-Index.java): [문제 링크](https://programmers.co.kr/learn/courses/30/lessons/42747)
 
 #### Full Search
 - [모의고사](Mock-Test.java): [문제 링크](https://programmers.co.kr/learn/courses/30/lessons/42840)
