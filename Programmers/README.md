@@ -10,6 +10,7 @@ Programmers
 
 #### Queue/Stack
 - [기능개발](Develop-Function.java): [문제 링크](https://programmers.co.kr/learn/courses/30/lessons/42586)
+- [프린터](Printer.java): [문제 링크](https://programmers.co.kr/learn/courses/30/lessons/42587)
 - [탑](Top.java) : [문제 링크](https://programmers.co.kr/learn/courses/30/lessons/42588)
 
 #### Sort
