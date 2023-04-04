@@ -1,4 +1,4 @@
 CodingTest
 ===
 
-- [Programmers](/Programmers)
+- [Programmers](/programmers)
