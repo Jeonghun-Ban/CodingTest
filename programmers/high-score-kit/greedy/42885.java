@@ -1,22 +1,30 @@
-import java.util.*;
+import java.util.Arrays;
+import java.util.Deque;
+import java.util.ArrayDeque;
 
 class Solution {
     public int solution(int[] people, int limit) {
-        List<Integer> list = new ArrayList<>(people.length);
-        for (int person : people) list.add(person);
-        Collections.sort(list);
+        int answer = 0;        
+        Deque<Integer> deque= new ArrayDeque<>(people.length);
         
-        Deque<Integer> dq = new ArrayDeque<>(people.length);
-        for (int person : list) dq.add(person);
+        Arrays.sort(people);
         
-        int boatNumber = 0;
-        
-        while(dq.isEmpty() == false) {
-            int heaviest = dq.pollLast();
-            if(dq.isEmpty() == false && heaviest + dq.peekFirst() <= limit) dq.remove();
-            boatNumber++;
+        for (int p: people) {
+            deque.add(Integer.valueOf(p));
+        }
+                
+        while(!deque.isEmpty()) {
+            rideBoat(deque, limit);
+            answer++;
         }
         
-        return boatNumber;
+        return answer;
+    }
+    
+    private void rideBoat(Deque<Integer> deque, int limit) {
+        int lastPeople = deque.pollLast();
+        if (!deque.isEmpty() && lastPeople + deque.peekFirst() <= limit) {
+            deque.pollFirst();
+        }
     }
 }
