@@ -2,4 +2,9 @@
 ===
 
 - [코딩테스트 고득점 Kit](./high-score-kit)
+
+카카오
+---
+
+- [2018 KAKAO BLIND RECRUITMENT](./2018-kakao-blind-recruitment)
 - [2019 KAKAO BLIND RECRUITMENT](./2019-kakao-blind-recruitment)
