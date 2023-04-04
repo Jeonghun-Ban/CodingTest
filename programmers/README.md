@@ -2,6 +2,7 @@
 ===
 
 - [코딩테스트 고득점 Kit](./high-score-kit/README.md)
+- [연습문제](./practice-problems/README.md)
 - [Summer/Winter Coding(~2018)](./summer-winter-coding-2018/README.md)
 - [주간 코드 챌린지 시즌1](./weekly-code-challenge-season1/README.md)
 
