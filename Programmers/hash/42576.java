@@ -1,5 +1,4 @@
 import java.util.HashMap;
-import java.util.Map;
 
 class Solution {
     public String solution(String[] participant, String[] completion) {
