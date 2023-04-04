@@ -1,10 +1,12 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 
 class Solution {
     public String[] solution(String[] record) {
         String[] split;
         HashMap<String , String> map = new HashMap<String , String>();
-        List<String> list = new ArrayList();
+        List<String> list = new ArrayList<>();
 
         for(int i = 0; i < record.length; i++){
             if(!record[i].contains("Leave")){
