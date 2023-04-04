@@ -3,6 +3,7 @@
 
 - [코딩테스트 고득점 Kit](./high-score-kit)
 - [Summer/Winter Coding(~2018)](./summer-winter-coding-2018)
+- [주간 코드 챌린지 시즌1](./weekly-code-challenge-season1)
 
 카카오
 ---
