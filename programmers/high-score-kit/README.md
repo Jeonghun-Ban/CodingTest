@@ -11,9 +11,9 @@
 스택/큐
 ---
 
-- [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586): [풀이](./queue-stack/42586.java)
-- [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587): [풀이](./queue-stack/42587.java)
-- [탑](https://programmers.co.kr/learn/courses/30/lessons/42588): [풀이](./queue-stack/42588.java)
+- [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586): [풀이](./stack-queue/42586.java)
+- [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587): [풀이](./stack-queue/42587.java)
+- [탑](https://programmers.co.kr/learn/courses/30/lessons/42588): [풀이](./stack-queue/42588.java)
 
 힙
 ---
