@@ -6,3 +6,4 @@
 - [최솟값 만들기](https://programmers.co.kr/learn/courses/30/lessons/12941): [풀이](./12941.java)
 - [다음 큰 숫자](https://programmers.co.kr/learn/courses/30/lessons/12911): [풀이](./12911.java)
 - [피보나치 수](https://programmers.co.kr/learn/courses/30/lessons/12945): [풀이](./12945.java)
+- [숫자의 표현](https://programmers.co.kr/learn/courses/30/lessons/12924): [풀이](./12924.java)
