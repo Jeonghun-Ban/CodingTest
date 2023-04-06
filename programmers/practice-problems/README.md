@@ -7,3 +7,4 @@
 - [다음 큰 숫자](https://programmers.co.kr/learn/courses/30/lessons/12911): [풀이](./12911.java)
 - [피보나치 수](https://programmers.co.kr/learn/courses/30/lessons/12945): [풀이](./12945.java)
 - [숫자의 표현](https://programmers.co.kr/learn/courses/30/lessons/12924): [풀이](./12924.java)
+- [귤 고르기](https://programmers.co.kr/learn/courses/30/lessons/12982): [풀이](./12982.java)
