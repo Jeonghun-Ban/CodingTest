@@ -8,3 +8,4 @@
 - [피보나치 수](https://programmers.co.kr/learn/courses/30/lessons/12945): [풀이](./12945.java)
 - [숫자의 표현](https://programmers.co.kr/learn/courses/30/lessons/12924): [풀이](./12924.java)
 - [귤 고르기](https://programmers.co.kr/learn/courses/30/lessons/12982): [풀이](./12982.java)
+- [N개의 최소 공배수](https://programmers.co.kr/learn/courses/30/lessons/12953): [풀이](./12953.java)
