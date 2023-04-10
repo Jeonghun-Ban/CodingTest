@@ -13,6 +13,7 @@ Summer/Winter Coding
 ---
 
 - [월간 코드 챌린지 시즌1](./monthly-code-challenge-season1/README.md)
+- [월간 코드 챌린지 시즌2](./monthly-code-challenge-season2/README.md)
 
 카카오
 ---
