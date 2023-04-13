@@ -1,40 +1,53 @@
-import java.util.*;
+import java.util.LinkedList;
+import java.util.Queue;
 
 class Solution {
     public int solution(int[] priorities, int location) {
-        int answer = location+1;
-        Queue<Integer> q = new LinkedList<>();
-        List<Integer> prio = new ArrayList<>();
-
-        // 큐에 프린터 요청 순차대로 넣기
-        for(int priority: priorities){
-            q.add(priority);
-            prio.add(priority);
+        Queue<Document> queue = new LinkedList<>();
+        
+        for (int i=0; i<priorities.length; i++) {
+            queue.offer(new Document(priorities[i], i));
         }
-
-        // 출력되는 순서
-        Collections.sort(prio);
-        Collections.reverse(prio);
-        System.out.println(prio.toString());
-
-        int i = 0;
-        while(!q.isEmpty()){
-            if(q.peek()==prio.get(i)){
-                q.poll();
-                if(answer==i+1){
+        
+        int cnt = 0;
+        
+        while (!queue.isEmpty()) {
+            Document firstDucument = queue.poll();
+            boolean isPrint = true;
+            
+            for (Document otherDucument: queue) {
+                if (firstDucument.priority < otherDucument.priority) {
+                    queue.offer(firstDucument);
+                    isPrint = false;
                     break;
                 }
-                i++;
-            } else{
-                q.add(q.poll());
-                if(answer==i+1){
-                    answer = priorities.length;
-                } else{
-                    answer--;
+            }
+            
+            if (isPrint) {
+                cnt++;
+                
+                if (firstDucument.isLocation(location)) {
+                    return cnt;
                 }
+                
+                isPrint = true;
             }
         }
+        
+        return 0;
+    }
 
-        return answer;
+    class Document {
+        int priority;
+        int location;
+        
+        public boolean isLocation(int location) {
+            return this.location == location;
+        }
+        
+        public Document(int priority, int location) {
+            this.priority = priority;
+            this.location = location;
+        }
     }
 }
