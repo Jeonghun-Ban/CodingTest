@@ -21,6 +21,7 @@ Summer/Winter Coding
 
 - [2018 KAKAO BLIND RECRUITMENT](./2018-kakao-blind-recruitment/README.md)
 - [2019 KAKAO BLIND RECRUITMENT](./2019-kakao-blind-recruitment/README.md)
+- [2019 카카오 개발자 겨울 인턴십](./2019-kakao-winter-internship/README.md)
 
 기타
 ---
