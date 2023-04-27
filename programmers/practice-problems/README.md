@@ -10,3 +10,4 @@
 - [귤 고르기](https://programmers.co.kr/learn/courses/30/lessons/12982): [풀이](./12982.java)
 - [N개의 최소 공배수](https://programmers.co.kr/learn/courses/30/lessons/12953): [풀이](./12953.java)
 - [연속 부분 수열 합의 개수](https://programmers.co.kr/learn/courses/30/lessons/131701): [풀이](./131701.java)
+- [할인 행사](https://programmers.co.kr/learn/courses/30/lessons/131127): [풀이](./131127.java)
