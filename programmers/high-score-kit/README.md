@@ -31,6 +31,7 @@
 완전탐색
 ---
 
+- [최소직사각형](https://programmers.co.kr/learn/courses/30/lessons/86491): [풀이](./full-search/86491.java)
 - [소수찾기](https://programmers.co.kr/learn/courses/30/lessons/42839): [풀이](./full-search/42839.java)
 - [모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840): [풀이](./full-search/42840.java)
 - [카펫](https://programmers.co.kr/learn/courses/30/lessons/42842): [풀이](./full-search/42842.java)
