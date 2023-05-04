@@ -1,72 +1,50 @@
-import java.util.*;
+import java.util.Set;
+import java.util.HashSet;
 
 class Solution {
-    List<String> PNums = new ArrayList<>();
-    boolean overlap = false;
 
     public int solution(String numbers) {
-        int answer = 0;
-        // 배열에 숫자 저장
-        String[] nums = numbers.split("");
-
-        for(int i=1; i<=nums.length; i++){
-            permutation(nums, 0, nums.length, i);
+        Set<Integer> result = new HashSet<>();
+        char[] nums = numbers.toCharArray();
+        boolean[] visited = new boolean[nums.length];
+        
+        for (int i=1; i<=nums.length; i++) {
+            permutation(nums, visited, new char[i], result, 0, i);
         }
-
-        System.out.println(PNums.toString());
-
-        // 정렬된 수 가져와서 소수 찾기
-        boolean sosu = true;
-        for(String PNum: PNums){
-            int intPNum = Integer.parseInt(PNum);
-            for(int j=2; j<=intPNum-1; j++){
-                if(intPNum%j==0){
-                    sosu = false;
-                }
-            }
-            if(sosu){
-                answer++;
-            }
-            sosu = true;
-        }
-
-        return answer;
+        
+        return (int) result.stream()
+            .filter(this::isPrime).count();
     }
 
-    public void permutation(String[] arr, int depth, int n, int r){
-        if(depth==r){
-            String PNum = "";
-
-            for(int i=0; i<r; i++){
-                PNum += arr[i];
-            }
-            if(Integer.parseInt(PNum)!=0&&Integer.parseInt(PNum)!=1){
-
-                // 중복 검사
-                for (String num : PNums){
-                    if(Integer.parseInt(num)==Integer.parseInt(PNum)){
-                        overlap = true;
-                    }
-                }
-                if(!overlap){
-                    PNums.add(PNum);
-                }
-                overlap = false;
-
+    private boolean isPrime(int num) {
+        if (num == 1 || num == 0) {
+            return false;
+        }
+        
+        for (int i=2; i<=Math.sqrt(num); i++) {
+            if (num % i == 0) {
+                return false;
             }
         }
-
-        for(int i=depth; i<n; i++) {
-            swap(arr, depth, i);
-            permutation(arr, depth + 1, n, r);
-            swap(arr, depth, i);
+        
+        return true;
+    }
+    
+    private void permutation(char[] numbers, boolean[] visited, char[] perm,
+                            Set<Integer> result, int depth, int count) {
+        
+        if (depth == count) {
+            result.add(Integer.parseInt(new String(perm)));
+            return;
+        }
+        
+        for (int i=0; i<numbers.length; i++) {
+            if (visited[i] == false) {
+                visited[i] = true;
+                perm[depth] = numbers[i];
+                permutation(numbers, visited, perm, result, depth+1, count);
+                visited[i] = false;
+            }
         }
     }
-
-    static void swap(String[] arr, int depth, int i) {
-        String temp = arr[depth];
-        arr[depth] = arr[i];
-        arr[i] = temp;
-    }
-
 }
