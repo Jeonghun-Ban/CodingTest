@@ -48,3 +48,4 @@
 - [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162): [풀이](./dfs-bfs/43162.java)
 - [게임 맵 최단거리](https://programmers.co.kr/learn/courses/30/lessons/1844): [풀이](./dfs-bfs/1844.java)
 - [단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163): [풀이](./dfs-bfs/43163.java)
+- [여행 경로](https://programmers.co.kr/learn/courses/30/lessons/43164): [풀이](./dfs-bfs/43164.java)
