@@ -11,6 +11,7 @@
 스택/큐
 ---
 
+- [같은 숫자는 싫어](https://programmers.co.kr/learn/courses/30/lessons/12906): [풀이](./stack-queue/12906.java)
 - [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586): [풀이](./stack-queue/42586.java)
 - [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587): [풀이](./stack-queue/42587.java)
 - [올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909): [풀이](./stack-queue/12909.java)
