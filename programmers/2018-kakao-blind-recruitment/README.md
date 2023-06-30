@@ -5,6 +5,7 @@
 ---
 
 - [뉴스 클러스터링](https://school.programmers.co.kr/learn/courses/30/lessons/17677): [풀이](./17677.py)
+- [프렌즈4블록](https://school.programmers.co.kr/learn/courses/30/lessons/17679): [풀이](./17679.py)
 - [캐시](https://school.programmers.co.kr/learn/courses/30/lessons/17680): [풀이](./17680.py)
 
 3차
